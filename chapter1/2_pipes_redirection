@@ -1,0 +1,7 @@
+
+
+ls -l | more
+
+#change permission to files
+mkdir otherfolder
+chmod 000 *10* 

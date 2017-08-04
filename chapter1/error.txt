@@ -1,0 +1,14 @@
+cp: no se puede abrir 'banan_10a' para lectura: Permiso denegado
+cp: no se puede abrir 'banan_10b' para lectura: Permiso denegado
+cp: no se puede abrir 'banan_10c' para lectura: Permiso denegado
+cp: no se puede abrir 'banan_10d' para lectura: Permiso denegado
+cp: no se puede abrir 'cherry_10a' para lectura: Permiso denegado
+cp: no se puede abrir 'cherry_10b' para lectura: Permiso denegado
+cp: no se puede abrir 'cherry_10c' para lectura: Permiso denegado
+cp: no se puede abrir 'cherry_10d' para lectura: Permiso denegado
+cp: se omite el directorio 'logs'
+cp: no se puede abrir 'strawberry_10a' para lectura: Permiso denegado
+cp: no se puede abrir 'strawberry_10b' para lectura: Permiso denegado
+cp: no se puede abrir 'strawberry_10c' para lectura: Permiso denegado
+cp: no se puede abrir 'strawberry_10d' para lectura: Permiso denegado
+cp: se omite el directorio 'tempFolder'
