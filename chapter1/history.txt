@@ -1,0 +1,282 @@
+    1  passwd 
+    2  ls
+    3  passwd 
+    4  ls --help 
+    5  echo $BASH_VERSION
+    6  apt-get install git
+    7  sudo apt-get install git
+    8  which git
+    9  git --version
+   10  git 
+   11  cd etc
+   12  cd /etc
+   13  ls
+   14  ls -ltra | grep git
+   15  cd ..
+   16  cd home/
+   17  ls
+   18  cd santi/
+   19  ls
+   20  cd D
+   21  cd Documentos/
+   22  ls
+   23  ls -ltra
+   24  cd ..
+   25  which git 
+   26  git config --system
+   27  git config --global
+   28  git config --global user.name "Juan Antonio Barragan"
+   29  cat git config
+   30  git config --global user.email "jabarragann@unal.edu.co"
+   31  cd /etck
+   32  cd /etc/
+   33  ls
+   34  cd gconf/
+   35  ls
+   36  cd ..
+   37  ls -ltra | grep git
+   38  ls -ltra 
+   39  ls -l 
+   40  cd ~
+   41  ls
+   42  git config --list
+   43  cd ~
+   44  ls
+   45  ls -la
+   46  cat ~/.gitconfi
+   47  cat ~/.gitconfig
+   48  cd ~
+   49  ls -la
+   50  ls -la | grep .gitconfig
+   51  vi
+   52  git config --global core.editor 
+   53  git config --global core.editor "vi"
+   54  git config --global color.ui true
+   55  cat .gitconfig
+   56  cd ~
+   57  curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash
+   58  sudo apt-get curl
+   59  sudo apt-get install curl
+   60  curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash
+   61  ls
+   62  mv ~/git-completion.bash ~/.git-completion.bash
+   63  ls
+   64  ls -la
+   65  ls -la | grep .git
+   66  nano .profile 
+   67  ls
+   68  tree Exercise\ Files/
+   69  sudo apt-get install tree
+   70  tree Exercise\ Files/
+   71  ls
+   72  git init
+   73  ls -la
+   74  git commit 
+   75  git log
+   76  git commit -am "initial commit
+   77  "
+   78  git commit -am "initial commit"
+   79  git add .
+   80  git status
+   81  git commit -m "initial commit"
+   82  git log 
+   83  git remote add origin https://github.com/jabarragann/BashScripts_course.git
+   84  git push -u origin master
+   85  git branch -a
+   86  mkdir chapter1
+   87  ls
+   88  pwd
+   89  ls
+   90  ls Exercise\ Files/
+   91  git status
+   92  git mv git remote add origin https://github.com/jabarragann/BashScripts_course.git
+   93  git status
+   94  git mv Exercise\ Files/ Exercise_Files
+   95  ls
+   96  git status
+   97  git commit -m "Name of Exercise Directory changed" 
+   98  git status
+   99  git log 
+  100  git log --oneline 
+  101  cd Exercise_Files/
+  102  ls
+  103  pwd
+  104  ls -la
+  105  man ls
+  106  cd trees
+  107  tree
+  108  clear
+  109  ls
+  110  cat tree.png
+  111  clear
+  112  more pine.txt
+  113  ls
+  114  peek maple.txt 
+  115  tail -200f maple.txt 
+  116  tail -20f maple.txt 
+  117  cd ..
+  118  ls
+  119  cd ..
+  120  ls
+  121  cd chapter1/
+  122  ls
+  123  touch Tilde_Brace_expansion
+  124  ls
+  125  cp Tilde_Brace_expansion Tilde_Brace_expansion.sh
+  126  nano Tilde_Brace_expansion
+  127  ls -la
+  128  ls
+  129  rm Tilde_Brace_expansion
+  130  ls
+  131  nano Tilde_Brace_expansion.sh 
+  132  mv Tilde_Brace_expansion.sh 1_Tilde_Brace_expansion.sh 
+  133  ls
+  134  nano 2_pipes_redirection
+  135  ls
+  136  git status
+  137  cd ..
+  138  ls
+  139  cd ..
+  140  ls
+  141  cd BashScripts_LyndaCourse/
+  142  ls
+  143  git status
+  144  git add .
+  145  ls
+  146  cd chapter1/
+  147  ls
+  148  cd otherFolder/
+  149  ls
+  150  chmod 110 *10*
+  151  ls -la
+  152  sudo rm *10*
+  153  ls
+  154  cd ..
+  155  ls
+  156  cd ..
+  157  ls
+  158  git statu
+  159  git status
+  160  git add .
+  161  ls
+  162  git status
+  163  git commit -m "Working in chapter1"
+  164  ls
+  165  git push
+  166  cd ~
+  167  ls
+  168  cd Documentos/
+  169  ls
+  170  mkdir temp
+  171  cd temp
+  172  ls
+  173  touch file_{1..3}
+  174  ls
+  175  rm file_*
+  176  ls
+  177  echo {1..10..2}
+  178  touch file_{01..20}
+  179  ls -la
+  180  rm *
+  181  ls
+  182  ls -la
+  183  touch file_{01..20..2}
+  184  ls
+  185  echo {a..Z}
+  186  echo {a..z}
+  187  echo {A..z}
+  188  touch {banana,cherry}_{1..4}{a..b}
+  189  ls -la
+  190  ls -l | more
+  191  touch {banana,cherry}_{1..20}{a..b}
+  192  ls
+  193  ls -l | more
+  194  clear
+  195  l
+  196  ls
+  197  rm *
+  198  history
+  199  ls
+  200  cd mkdir otherFolder
+  201  mkdir otherFolder
+  202  ls
+  203  touch {banan,cherry, strawberry}_{1..20}{a..d}
+  204  ls
+  205  ls -la
+  206  rm strawberry}_*
+  207  ls
+  208  rm \{banan,cherry, 
+  209  ls
+  210  cd otherFolder/
+  211  ls
+  212  touch {banan,cherry,strawberry}_{1..20}{a..d}
+  213  ls
+  214  mkdir otherFolder
+  215  ls
+  216  chmod 000 *10*
+  217  ls -la |more
+  218  ls
+  219  cp -v * otherFolder/
+  220  ls
+  221  ccd other
+  222  rm otherFolder/
+  223  /
+  224  mv -r otherFolder/tempFolder
+  225  mv otherFolder/tempFolder
+  226  ls
+  227  mv otherFolder tempFolder
+  228  ls
+  229  cp -v * tempFolder/
+  230  ls
+  231  cd tempFolder/
+  232  LS
+  233  ls
+  234  cd..
+  235  ls
+  236  cd ..
+  237  ls
+  238  rm tempFolder/*
+  239  ls
+  240  mkdir logs
+  241  ls
+  242  cp -v * tempFolder/ 1>../success.txt 2>../error.txt
+  243  ls
+  244  ls tempFolder -la
+  245  cd ..
+  246  ls
+  247  history
+  248  cd ..
+  249  ls
+  250  cd chapter1/
+  251  ls
+  252  cat error.txt 
+  253  cat success.txt 
+  254  ls
+  255  history
+  256  man grep 
+  257  ls
+  258  ls 
+  259  cd ..
+  260  ls
+  261  cp Exercise_Files/auth.log chapter1/
+  262  cd chapter1/
+  263  ls
+  264  ls -la
+  265  more auth.log 
+  266* grep scott auth.log 
+  267  grep -i break-in auth.log 
+  268  grep -i break-in auth.log  | awk {'print $12'}
+  269  man awk
+  270  man sed
+  271  ping example.com
+  272  ping google.com
+  273  ping www.google.com
+  274  ping -c 2 www.google.com
+  275  ping -c 2 www.google.com | grep 'bytes from' 
+  276  ping -c 2 www.google.com | grep 'bytes from' | cut -d = -f 4
+  277  history 
+  278  history help 
+  279  history --help
+  280  man history
+  281  hitory > history.txt 
+  282  history >history.txt 

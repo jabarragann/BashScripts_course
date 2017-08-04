@@ -5,3 +5,7 @@ ls -l | more
 #change permission to files
 mkdir otherfolder
 chmod 000 *10* 
+
+
+cp -v * tempFolder/ 1>../success.txt 2>../error.txt
+
