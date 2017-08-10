@@ -1,0 +1,9 @@
+# this target will compile all the files 
+
+all:
+	
+	g++ main.cpp function1.cpp function2.cpp -o helloWorld 
+ 
+compile:
+
+	
