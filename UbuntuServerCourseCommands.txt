@@ -1,0 +1,29 @@
+Virtual Sessions using Tmux
+1)open tmux
+2)to create a new window press "ctr+b" then "c"
+3)check tmux cheat  sheet
+
+Mounting a network shared folder 
+1) Create the network shared folder
+2) Install cifs utilities with: sudo apt-get install cifs-utils
+3) Create a directory in /mnt/ where you are going to mount the folder
+4) Excute the following command to mount the folder: sudo mount -f cifs //192.168.0.13/SharedFiles /mnt/networkdisk -o user=juan95,password=santy792
+   The Ip address must the one of the device sharing the folder, sharedfiles must be the name of the shared folder.
+5) Check if the file was mounted correctly with: df -h
+6) to unmount use: sudo umount /mnt/networkdisk
+
+Automatically Mounting the shared directory
+1)sudo nano /etc/fstab
+2)In the file add the following line
+
+//192.168.0.13/SharedFiles /mnt/networkdisk cifs user=juan95,password=santy792 0 0
+
+3)Mount everything in the fstab file with:
+sudo mount -a 
+
+
+Setting the fire wall
+
+1)sudo ufw allow 22/tcp
+2)sudo ufw enable
+3)check status with sudo ufw status
